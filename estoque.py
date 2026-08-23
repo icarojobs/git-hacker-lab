@@ -11,3 +11,8 @@ def baixa(nome, quantidade):
         if p["nome"] == nome:
             p["qtd"] -= quantidade
     return PRODUTOS
+
+
+def relatorio():
+    # TODO: agrupar por categoria
+    return len(PRODUTOS)
