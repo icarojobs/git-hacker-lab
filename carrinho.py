@@ -9,8 +9,7 @@ def subtotal(itens):
 
 
 def frete(itens):
-    # BUG: usa > em vez de >=, então um pedido de exatamente R$ 200 paga frete
-    return 0.0 if subtotal(itens) > FRETE_GRATIS_ACIMA_DE else FRETE_FIXO
+    return 0.0 if subtotal(itens) >= FRETE_GRATIS_ACIMA_DE else FRETE_FIXO
 
 
 def total(itens):
