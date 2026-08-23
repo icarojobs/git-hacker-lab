@@ -1,0 +1,7 @@
+# Cada linha: um padrão de caminho, e quem é dono dele.
+# A ÚLTIMA linha que casa é a que vale.
+
+*                       @icarojobs
+*.py                    @icarojobs
+/.github/               @icarojobs
+/docs/                  @icarojobs
